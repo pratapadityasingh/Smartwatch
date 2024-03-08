@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: rgb(150, 203, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container
+{
+    width: 450px;
+    height: 100px;
+    background: white;
+    border-radius: 20px;
+    border:  10px solid black;
+    display: flex;
+    border-bottom: 10px solid;
+}
+.iconclass{
+    width: 30px; 
+    height: 100%;
+    margin-left: 20px;
+    display: inline-grid;
+
+
+}
+.iconclass i{
+    padding-top: 5px;
+    font-size: 18px;
+    color: black;
+}
+.mainDiv
+{
+    width: calc(100% - 50px);
+    height: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid white;
+    border-radius: 20px;
+
+}
+.mainDiv p{
+    font-size: 50px;
+    color:white;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+body::before
+{
+    content: "";
+    position: absolute;
+    z-index: 999;
+   background-image: url(./assets/secondut.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 100%;
+    left: 200px;
+    bottom: -136px;
+}
